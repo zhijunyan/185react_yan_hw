@@ -63,7 +63,7 @@ export class App extends Component{
         <div className ="nav-bar"> 
           
 
-          < TabList tabs={tabs} 
+          <TabList tabs={tabs} 
           changeTab={this.changeTab}
             
           activeTab={this.state.activeTab} />
